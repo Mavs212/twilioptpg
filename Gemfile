@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+gem 'devise'
 gem 'twilio-ruby'
 gem 'autoprefixer-rails'
 gem 'bootstrap-sass', '~>3.2.0'

@@ -1,5 +1,6 @@
 class InstructorsController < ApplicationController
   before_action :set_instructor, only: [:show, :edit, :update, :destroy]
+  before_filter :authenticate_user!
   
   def text
   @instructor = set_instructor
